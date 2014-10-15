@@ -1,0 +1,156 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Capital Inicial</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://jquery-ui.googlecode.com/svn/tags/1.8rc1/jquery-1.4.1.js"></script>
+	<script type="text/javascript" src="http://jquery-ui.googlecode.com/svn/tags/1.8rc1/ui/jquery-ui.js"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<style type="text/css">
+		body {font-size: 62.5%; font-family:"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif; }
+		fieldset { border:0; margin: 6em; height: 12em;}	
+		label {font-weight: normal; float: left; margin-right: .5em; font-size: 1.1em;}
+		label {
+			width:142px;
+			height:16px;
+			background-color:#CCCCCC;
+			float:left;
+			display: block;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size: 150%;
+			letter-spacing: -1px;
+			font-weight: normal;
+			line-height: 1.1;
+			color:#666;
+		}
+		.textbox {
+			width:285px;
+			font:normal 18px Arial;
+			color: #999999;
+			padding:3px 5px 3px 19px;
+		}
+		#cash {
+			float: right;
+		}
+		select {margin-right: 1em; float: left;}
+		.ui-slider {clear: both; top: 5em; width: 150px;}
+	</style>
+	<script type="text/javascript">
+
+	var totalIncome = 0;
+	
+		// Load the Visualization API and the piechart package.
+	  google.load('visualization', '1', {'packages':['linechart']});
+
+	  // Set a callback to run when the Google Visualization API is loaded.
+	  google.setOnLoadCallback(drawVisualization);
+	 
+	function drawVisualization(n) {
+	  // Create and populate the data table.
+	  var high = new Array(1, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15);
+	  var medium = new Array(1, 13, 13, 13, 15, 15, 14, 13, 15, 5, 15, 15);
+	  var low = new Array(1, 10, 10, 15, 10, 10, 10, 0, 10, 10, 10, 10);
+	  var months = new Array('Jan','Fev','Mar','Apr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez');
+	  var data = new google.visualization.DataTable();
+	  data.addColumn('string', 'Mês');
+	  data.addColumn('number', 'Número de Vendas');
+	  data.addRows(12);
+	  var type_of_growth;
+	  if (n == 0)
+		type_of_growth = high;
+  	  else if (n == 1)
+		type_of_growth = medium;
+	  else
+		type_of_growth = low;
+		
+	  var price = parseInt(document.getElementById("price").value);
+	  //alert('price = ' + price);
+	
+	  for (var i = 0; i < 12; i++)
+	  {
+			data.setCell(i, 0, months[i]);
+			data.setCell(i, 1, type_of_growth[i]);
+			
+			if (!isNaN(price)) {
+				totalIncome += type_of_growth[i] * price;	
+			}
+	  }
+	
+	  // Create and draw the visualization.
+	  new google.visualization.LineChart(document.getElementById('visualization')).
+	      draw(data, {width: 400, height: 240, legend: 'bottom', title: 'Número de Vendas Estimado'});  
+	}
+		
+		$(document).ready(function(){
+			
+			
+			$('.target1').change(function() {
+				updateCapital();
+			});
+			$('.target2').change(function() {
+				updateCapital();
+			});
+			$('.mais').click(function() {
+				var i = parseInt(document.getElementById("nempregados").value);
+				document.getElementById("nempregados").value = i+1;
+				updateCapital();
+			});
+			$('.menos').click(function() {
+				var i = parseInt(document.getElementById("nempregados").value);
+				document.getElementById("nempregados").value = i-1;
+				updateCapital();
+			});
+			$('#crescimento').change(function() {
+				drawVisualization(this.selectedIndex);
+			});
+			$('#price').change(function() {
+				var selectedIndex = document.getElementById("crescimento").selectedIndex;
+				drawVisualization(selectedIndex);
+				updateCapital();
+			});
+			
+			function updateCapital() {
+				var a = document.getElementById("nempregados").value;
+				var b = document.getElementById("salario").value;
+				
+				var res = parseInt(a) * parseInt(b) * 12 - totalIncome;
+				if (!isNaN(res) && res>=0)
+			    	document.getElementById("capitalinicial").value = res;
+				else if (res < 0)
+					document.getElementById("capitalinicial").value = 0;
+			}
+			
+		  });
+		
+	
+	</script>
+	
+</head>
+<body>
+
+<div id="intro">
+Este site destina-se a fornecer uma estimativa do capital inicial necessário para o primeiro ano de operações de uma empresa em Portugal.
+</div>
+<br/>
+
+<form name="myform" method="post">
+	<label>Nº de Empregados:</label> <input class="target1" type="text" id="nempregados" name="nempregados" value="1" placeholder="1"> <a href="#" class="mais">+</a> <a href="#" class="menos">-</a><br/>
+	<label>Salário:</label> <input class="target2" type="text" id="salario" name="salario" value="" placeholder="1000">€<br/>
+	<label>Preço Produto/Serviço:</label> <input id="price" type="text" value="" placeholder="39">€ <br/>Cobrado Mensalmente: <input type="checkbox" checked> <br/>
+	<label>Crescimento Previsto:</label>
+	<select id="crescimento">
+		<option name="alto">Alto</option>
+		<option name="medio">Médio</option>
+		<option name="baixo">Baixo</option>
+	</select>
+	<div id="visualization"></div>
+	<div id="cash">
+	<label>Capital Necessário:</label> <input type="text" id="capitalinicial" name="capitalinicial" value="">€<br/>
+	</div>
+</form>
+
+<br/>
+<br/>
+Esta página gostava de ser <a href="http://validator.w3.org/" target="_blank">HTML5</a>
+</body>
+</html>
