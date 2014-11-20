@@ -2,7 +2,8 @@
 <html>
 <head>
 <style>
-#div1 {width:150px;height:150px;padding:10px;border:1px solid #aaaaaa;}
+#div1 {width:150px;height:150px;padding:10px;border:1px solid #aaaaaa;float:left;}
+#div2 {width:150px;height:150px;padding:10px;border:1px solid #aaaaaa;float:left;}
 </style>
 <script>
 function allowDrop(ev) {
@@ -25,6 +26,7 @@ function drop(ev) {
 <p>Arraste a imagem do PHC Business FX para o rectângulo:</p>
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div2"></div>
 <br>
 <img id="drag1" src="img_logo.png" draggable="true" ondragstart="drag(event)" width="150" height="150">
 
