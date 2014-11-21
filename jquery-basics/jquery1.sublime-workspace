@@ -1,0 +1,455 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lesson",
+				"lesson_course_id"
+			],
+			[
+				"get_page_b",
+				"get_page_by_title"
+			],
+			[
+				"main-menu",
+				"main-menu-active"
+			],
+			[
+				"selec",
+				"selected_language"
+			],
+			[
+				"first",
+				"first_post"
+			],
+			[
+				"has_post_",
+				"has_post_thumbnail"
+			],
+			[
+				"get_categ",
+				"get_category_link"
+			],
+			[
+				"wp_list_",
+				"wp_list_bookmarks"
+			],
+			[
+				"jquery-",
+				"jquery-magnific-popup"
+			],
+			[
+				"get_post_thum",
+				"get_the_post_thumbnail"
+			],
+			[
+				"get_post_th",
+				"get_the_post_thumbnail"
+			],
+			[
+				"get_post_t",
+				"get_post_type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"pac i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/content-single-course.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/single-course.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/content-single-course-lessons.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/plugins/sensei-modules/classes/class-sensei-modules.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/home.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/js/angola2learn.js",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/inc/search-bar.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/header.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/footer.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sidebar.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/taxonomy-course-category.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/inc/category-list.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/tpl-faqs.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/archive.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/archive-course.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/functions.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/plugins/sensei/classes/class-woothemes-sensei-frontend.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/plugins/login-with-ajax/login-with-ajax.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/inc/content-register.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/plugins/login-with-ajax/widget/default/widget_out.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/plugins/advanced-custom-fields/core/fields/_base.php",
+		"/Users/nuno/Projects/angola2learn/wp-admin/load-styles.php",
+		"/Users/nuno/Projects/angola2learn/wp-admin/load-scripts.php",
+		"/Users/nuno/Projects/angola2learn/wp-includes/plugin.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/scss/base_layout/_base-layout.scss",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/header-home.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/inc/content-login.php",
+		"/Users/nuno/Projects/angola2learn/wp-includes/general-template.php",
+		"/Users/nuno/Projects/angola2learn/wp-config.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/inc/custom-fields.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/content-single-lesson.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/sensei/single-lesson.php",
+		"/Users/nuno/Projects/angola2learn/wp-includes/category-template.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/scss/utils/_tool-imports.scss",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/scss/modules/_swiper.scss",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/header-pre-launch.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/tpl-pre-launch.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/front-page.php",
+		"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn/tpl-pre-launch-page.html",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/produtos/preco.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/library/js/script.js",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/single.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/functions/vars.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/more-section.php",
+		"/Users/nuno/Projects/phcfx/wp-content/plugins/backupwordpress/classes/class-schedule.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/single-phcfx_landing_page.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/tag.php",
+		"/private/var/folders/rr/gfgb4bt51sn8tp1cx3rngx8r0000gn/T/d6dc09e4-ff26-40e7-9c45-2caf51eba4ec/wp-content/plugins/import-suppliers-from-csv/import-suppliers-from-csv.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/header.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/library/less/style.less",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/functions/custom-post-types.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/index.php",
+		"/Users/nuno/Projects/phcfx/wp-content/plugins/advanced-custom-fields/core/api.php",
+		"/Users/nuno/Projects/phcfx/wp-includes/general-template.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/suites/preco.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/produtos/descricao.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/template-new-phcfx-landing-page.php",
+		"/Users/nuno/Projects/phcfx/wp-content/plugins/magic-fields-2/main.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/template-phcfx-landing-page.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/home.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/page.php",
+		"/Users/nuno/Projects/phcfx/wp-content/plugins/magic-fields-2/mf_front_end.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/functions/admin.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/blog-header-single.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/search.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/front-page.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/suites/descricao.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/functions/query.php",
+		"/Users/nuno/Projects/phcfx/wp-admin/includes/export.php",
+		"/Users/nuno/Projects/phcfx/wp-content/plugins/wordpress-import-wpml-single-language/wordpress-importer.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/landing-snippets.php",
+		"/Users/nuno/Projects/phcfx/wp-includes/post.php",
+		"/Users/nuno/Projects/phcfx/wp-includes/post-formats.php",
+		"/Users/nuno/Projects/phcfx/wp-includes/template.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/experimente-gratis.php",
+		"/Users/nuno/Desktop/Formação HTML:CSS/day2/demo-audio/audio.html",
+		"/Users/nuno/Desktop/Formação HTML:CSS/day2/demo-video/video.html",
+		"/Users/nuno/Desktop/Formação HTML:CSS/day2/demo-speech/speech.html",
+		"/Users/nuno/Projects/phcfx/wp-includes/link-template.php",
+		"/Users/nuno/Projects/phcfx/wp-includes/class-simplepie.php",
+		"/Users/nuno/Projects/phcfx/wp-includes/query.php",
+		"/Users/nuno/Projects/phcfx/wp-content/themes/phcfx/page-casos-sucesso.php",
+		"/Users/nuno/Projects/phcfx/local-config.php",
+		"/Users/nuno/Projects/phcfx/wp-config.php",
+		"/Users/nuno/Projects/frotcom/services/application/controllers/svc.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/header.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/functions.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/list_questions.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/js/formValidation.js",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/list_videos.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/list_news_pdfs.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/news-sidebar.php",
+		"/Users/nuno/Projects/frotcom/wp-includes/post.php",
+		"/Users/nuno/Projects/frotcom/wp-content/plugins/sitepress-multilingual-cms/sitepress.class.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/contact_form.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/become-partner-form.php",
+		"/Users/nuno/Projects/frotcom/wp-content/themes/frotcom/js/browserRedirect.js",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/archive.php",
+		"/Users/nuno/Projects/macrometria/wp-includes/post-thumbnail-template.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/content-about.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/woocommerce/content-single-product.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/library/homepage.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/category-subscription-products-monthly-reports.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/home.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/header.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/single.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/content-single.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/library/utils.php",
+		"/Users/nuno/Projects/macrometria/wp-includes/category-template.php",
+		"/Users/nuno/Projects/macrometria/wp-content/plugins/woocommerce/includes/class-wc-cart.php",
+		"/Users/nuno/Projects/macrometria/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/functions.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/footer.php",
+		"/Users/nuno/Projects/macrometria/wp-includes/general-template.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-about.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/woocommerce/single-product.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-team.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-recovery.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-premium.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-login.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-contacts.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-account.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/page-work.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/templates/sidebar-categories.php",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/js/macrometria.js",
+		"/Users/nuno/Projects/macrometria/wp-content/themes/macrometria/sidebar.php",
+		"/Users/nuno/Projects/macrometria/wp-includes/media.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/nuno/Projects/angola2learn/wp-content/themes/angola2learn",
+			"/Users/nuno/Projects/angola2learn/wp-content",
+			"/Users/nuno/Projects/angola2learn/wp-conten",
+			"/Users/nuno/Projects/angola2learn/wp-content",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"module_url",
+			"h2",
+			"course-action",
+			"icon",
+			"red-button",
+			"sensei_course_archive_header",
+			"error",
+			"An error",
+			"Please",
+			"lwa-links-remember",
+			"Lost",
+			"url_register",
+			"getRegisterLink",
+			"register_link",
+			"login",
+			"register",
+			"action",
+			"TODO Erik",
+			"lisbonbigapps",
+			"register_post",
+			"software",
+			"sensei_single_main_content",
+			"teatcher",
+			"pagamento",
+			"hide",
+			"monthlyEquivalent",
+			"preco-mes",
+			"MES",
+			"set_object",
+			"icl_",
+			"ajax",
+			"author_select",
+			"get_group",
+			"preventDefault",
+			"produtos",
+			"produtosArea",
+			"precos",
+			"osNossosClientes",
+			"enqueue",
+			"swiper",
+			"admin",
+			"backoffice",
+			"login",
+			"admin",
+			"hash",
+			"Excel",
+			"excel",
+			"Excel",
+			"excel",
+			"youtube",
+			"videos",
+			"youtube",
+			"no_redirect",
+			"geoip",
+			"redTxt",
+			"Top Questions",
+			"geoip",
+			"freeTrial",
+			"tquestions",
+			"top questions",
+			"top-questions",
+			"free",
+			"max+",
+			"max",
+			"size",
+			"length",
+			"size",
+			"get_template_part('templates/sidebar-categories');",
+			"set_post",
+			"markjeffries"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"angola2learn",
+			"lesson",
+			"teacher",
+			"get_field",
+			"macrometria"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jquery1.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
